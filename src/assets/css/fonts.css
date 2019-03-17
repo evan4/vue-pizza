@@ -1,0 +1,53 @@
+@font-face {
+	font-family: 'Roboto';
+	src: local('Roboto'), local('Roboto-Regular'),
+		url('../fonts/Roboto/hinted-subset-Roboto-Regular.woff2') format('woff2'),
+		url('../fonts/Roboto/hinted-subset-Roboto-Regular.woff') format('woff'),
+		url('../fonts/Roboto/hinted-subset-Roboto-Regular.ttf') format('truetype'),
+		url('../fonts/Roboto/hinted-subset-Roboto-Regular.svg#Roboto-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: local('Roboto Medium'), local('Roboto-Medium'),
+		url('../fonts/Roboto/hinted-subset-Roboto-Medium.woff2') format('woff2'),
+		url('../fonts/Roboto/hinted-subset-Roboto-Medium.woff') format('woff'),
+		url('../fonts/Roboto/hinted-subset-Roboto-Medium.ttf') format('truetype'),
+		url('../fonts/Roboto/hinted-subset-Roboto-Medium.svg#Roboto-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: local('Roboto Bold'), local('Roboto-Bold'),
+		url('../fonts/Roboto/hinted-subset-Roboto-Bold.woff2') format('woff2'),
+		url('../fonts/Roboto/hinted-subset-Roboto-Bold.woff') format('woff'),
+		url('../fonts/Roboto/hinted-subset-Roboto-Bold.ttf') format('truetype'),
+		url('../fonts/Roboto/hinted-subset-Roboto-Bold.svg#Roboto-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arizonia';
+    src: local('Arizonia Regular'), local('Arizonia-Regular'),
+        url('../fonts/Arizonia/Arizonia-Regular.woff2') format('woff2'),
+        url('../fonts/Arizonia/Arizonia-Regular.woff') format('woff'),
+        url('../fonts/Arizonia/Arizonia-Regular.ttf') format('truetype'),
+        url('../fonts/Arizonia/Arizonia-Regular.svg#Arizonia-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monoton';
+    src: local('Monoton'), local('Monoton-Regular'),
+        url('../fonts/Monoton/Monoton-Regular.woff2') format('woff2'),
+        url('../fonts/Monoton/Monoton-Regular.woff') format('woff'),
+        url('../fonts/Monoton/Monoton-Regular.ttf') format('truetype'),
+        url('../fonts/Monoton/Monoton-Regular.svg#Monoton-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
