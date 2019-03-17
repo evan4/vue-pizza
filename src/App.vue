@@ -3,6 +3,7 @@
     <comp-header/>
     <div>
       <compFeatured/>
+      <compMenu/>
     </div>
     
     <comp-footer/>
@@ -13,13 +14,15 @@
 import compHeader from "./components/header-footer/Header";
 import compFooter from "./components/header-footer/Footer";
 import compFeatured from "./components/featured";
+import compMenu from "./components/Menu";
 
 export default {
   name: 'app',
   components: {
     compHeader,
     compFooter,
-    compFeatured 
+    compFeatured,
+    compMenu
   }
 }
 </script>
