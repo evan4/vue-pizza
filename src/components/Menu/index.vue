@@ -36,7 +36,8 @@ export default {
                     name: 'dessert',
                     active: false
                 }
-            ]
+            ],
+            products: []
         }
     },
     methods: {
@@ -51,6 +52,27 @@ export default {
                 
             }
         }
+    },
+    created(){
+        this.$http.get('products.json')
+        .then((response) => response.json())
+        .then((data) => {
+            let list = [];
+
+            for (const key in data) {
+                if (data.hasOwnProperty(key)) {
+                    const element = data[key];
+                    list.push({
+                        ...element,
+                        id: key
+                    })
+                }
+            }
+            this.products = list;
+        })
+        .catch((err) => {
+            
+        });
     }
 }
 </script>
