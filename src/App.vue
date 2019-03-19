@@ -2,8 +2,9 @@
   <div id="app">
     <comp-header/>
     <div>
-      <compFeatured/>
-      <compMenu/>
+      <comp-featured/>
+      <comp-menu/>
+      <comp-call-us/>
     </div>
     
     <comp-footer/>
@@ -15,6 +16,7 @@ import compHeader from "./components/header-footer/Header";
 import compFooter from "./components/header-footer/Footer";
 import compFeatured from "./components/featured";
 import compMenu from "./components/Menu";
+import compCallUs from "./components/CallUs";
 
 export default {
   name: 'app',
@@ -22,7 +24,8 @@ export default {
     compHeader,
     compFooter,
     compFeatured,
-    compMenu
+    compMenu,
+    compCallUs
   }
 }
 </script>
