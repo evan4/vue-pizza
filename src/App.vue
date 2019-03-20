@@ -5,6 +5,7 @@
       <comp-featured/>
       <comp-menu/>
       <comp-call-us/>
+      <comp-newsletter/>
     </div>
     
     <comp-footer/>
@@ -17,6 +18,7 @@ import compFooter from "./components/header-footer/Footer";
 import compFeatured from "./components/featured";
 import compMenu from "./components/Menu";
 import compCallUs from "./components/CallUs";
+import compNewsletter from './components/Newsletter';
 
 export default {
   name: 'app',
@@ -25,7 +27,8 @@ export default {
     compFooter,
     compFeatured,
     compMenu,
-    compCallUs
+    compCallUs,
+    compNewsletter
   }
 }
 </script>
